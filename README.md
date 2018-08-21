@@ -19,6 +19,7 @@ npm i eslint babel-eslint --save-dev
 3. Create [.eslintrc](./.eslintrc) in the project root folder.
 
 4. Insert the config in [settings.json](./settings.json) file (`Ctrl + ,` to open the file).
+P.S.: Insert the above config in `workspace settings`, so that it overrides `user settings`.
 
 5. That's all! Have fun!
 
