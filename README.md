@@ -39,6 +39,10 @@ If you prefer, insert a script in `package.json`, so that you can run `npm run l
 You can use this in case you have already started your project and yous JS files are not in format you wish to.
 ```
 npm i prettier --save-dev
+```
+
+Run:
+```
 ./node_modules/.bin/prettier --single-quote --semi --trailing-comma es5 --write "**/*.js"
 ```
 
