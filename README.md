@@ -4,7 +4,7 @@ My ESLint and Prettier config (and other stuff).
 
 ## Why did I create this?
 
-To recap what are my prefered configuration :).
+To recap what my prefered configurations are :).
 
 ## How to use it
 
@@ -29,8 +29,20 @@ P.S.: Insert the above config in `workspace settings`, so that it overrides `use
   ./node_modules/.bin/eslint .
 ```
 
-If you prefer, insert a script in `package.json`, so that you can run just `npm run lint`:
+If you prefer, insert a script in `package.json`, so that you can run `npm run lint`:
 
 ```
 "lint": "./node_modules/.bin/eslint ."
+```
+
+## Run Prettier on all JS Files (optional):
+You can use this in case you have already started your project and yous JS files are not in format you wish to.
+```
+npm i prettier --save-dev
+./node_modules/.bin/prettier --single-quote --semi --trailing-comma es5 --write "**/*.js"
+```
+
+If you prefer, insert a script in `package.json`, so that you can run `npm run format-prettier`:
+```
+"format-prettier": "./node_modules/.bin/prettier --single-quote --semi --trailing-comma es5 --write \"**/*.js\""
 ```
