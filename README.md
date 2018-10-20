@@ -1,6 +1,6 @@
-# eslint-prettier-config
+# dotfiles
 
-My ESLint and Prettier config (and other stuff).
+My preferred working config (ESLint, Prettier, etc).
 
 ## Why did I create this?
 
